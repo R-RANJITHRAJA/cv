@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f8f8f8;
+    display: flexbox;
+
+}
+
+ul {
+
+    list-style: none;
+}
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 301px;
+    height: 24px;
+    font-weight: bolder;
+    left: 900px;
+    top: 40px;
+}
+
+
+
+a {
+    text-decoration: none;
+color: black;
+}
+
+a:hover {
+    color: sandybrown;
+    transform: scale(5px);
+    transition:cubic-bezier(0.39, 0.575, 0.565, 1)
+}
+a:active{
+    color: sandybrown;
+}
+
+.name {
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.tag {
+    font-family: 'Poppins', sans-serif;
+    height: 45px;
+    width: 484px;
+    left: 173px;
+    top: 100px;
+    font-size: 24px;
+
+}
+
+.name p {
+    margin: 0px;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    background-color: #f8f8f8;
+    position: absolute;
+    left: 700px;
+    top: 5px;
+    bottom: auto;
+}
+
+.profile {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 198px;
+    height: 24px;
+    top: 550px;
+    left: 150px;
+
+}
+.service{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    position: absolute;
+    top:700px;
+    left:150px;
+}
+.develop{
+    position: absolute;
+    top:850px;
+    left:250px;
+}
+.ux{
+    position: absolute;
+    top:850px;
+    left:800px;
+}
+.des{
+    font-family: 'Poppins', sans-serif;
+    width:250px;
+    height: 150px;
+    display: block;
+    justify-content:center;
+    position: absolute;
+    top: 1000px;
+    left:200px;
+    font-size: 20px bold;
+    font-weight: 500px;
+}
+.desc{
+    font-family: 'Poppins', sans-serif;
+    width:250px;
+    height: 150px;
+    justify-content:center;
+    position: absolute;
+    top: 1000px;
+    left: 800px;
+    font-size: 20px bold;
+}
+strong{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    align-items: center;
+    line-height: 20px;
+}
+.container p{
+    text-align:center;
+    font-weight: 500px;
+   }
+   
+   .container .des strong{
+    left:29px;
+   }
+   .container .desc strong{
+    left:49px;
+   }
+   .container .desc{
+    transform:translatex(-43px) translatey(0px);
+    text-align:center;
+    direction:ltr;
+   }
+   .page{
+    position: absolute;
+    top:500px;
+   }
