@@ -160,3 +160,69 @@ strong{
     position: absolute;
     top:500px;
    }
+.skill{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    position: absolute;
+    top:1200px;
+    left:150px;
+    width: 500px;
+   }
+   .skill p{
+    font-style: normal;
+    font-size: 15px;
+    display: inline;
+    padding: 10px;
+    position: absolute;
+    margin-top: 2px;
+   }
+   .css{
+    position: absolute;
+    top:140px;
+    margin-left: 300px;
+   }
+   hr{
+    margin-top: 1430px;
+    width: 80%;
+    border: 1px solid;
+   }
+   .app{
+    margin-top: 30px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+   }
+   .app img{
+    margin-top: 2px;
+   }
+   .figma{
+    position: absolute;
+    margin-top:10px;
+    margin-left: 150px;
+    width: 100px;
+    height: 40px;
+   }
+   .figma p{
+    font-style: normal;
+    font-size: 15px;
+    display: inline;
+    padding: 10px;
+    position: absolute;
+    margin-top: 2px;
+   }
+   .ps{
+    height: 40px;
+    width: 150px;
+    position: absolute;
+ margin-left: 450px;
+ margin-top: 10px;
+   }
+ .ps p{
+    display: inline;
+    position: absolute;
+    margin-top: 3px;
+    padding: 7px;
+
+ }
